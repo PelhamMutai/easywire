@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+#app{background-color: #f3f4f6;
+    height: auto;
+    flex: 0 0 150px;
+    display: flex;
+}
+#content{
+    width: 1000px;
+}
+#header{
+    align-items: center;
+    background: #0e7490;
+    flex:0 0 150px;
+    height: auto; 
+}
+#header a{text-decoration: none;
+    color: white;
+    display: block;
+    padding:12px;
+}
+#header a:hover{
+    background-color: rgba(243, 11, 11, 0.932);
+}
+#header a.active{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+#search{border: 2px solid rgba(128, 128, 128, 0.247);
+    background: #ffffff; 
+    height: 30px;
+    padding: 7px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.textInput{
+    border: 0px;
+}
+#photobar{
+    display: flex;
+    margin: 7px;
+    align-items: center;
+}
+#searchbox{
+    display: flex;
+    flex: 2;
+    margin: 7px;
+    align-items: center;
+}   
+#name{
+    background-color:#ffffff;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}       
+ #overview{ 
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-between;
+}
+#account{background-color: white;
+    height: 120px;
+    width: 280px;
+    box-shadow: 1px 10px 8px rgb(141, 137, 137);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+#pending{
+    background-color: white;
+    height: 120px;
+    width: 280px;
+    box-shadow: 1px 10px 8px rgb(141, 137, 137);
+    border-radius: 10px;
+    }
+#processed{
+    background-color: white;
+    height: 120px;
+    width: 280px;
+    box-shadow: 1px 10px 8px rgb(141, 137, 137);
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.view-all{
+    color: #7cb3c2;
+    background-color: #f9fafb;
+    height: 29px;
+    margin-top: 35px;
+    padding-top: 5px;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{    
+    border-radius: 50%;
+}
+#active{
+    background-color: #155e75;
+}
+table{  
+    table-layout:auto; 
+    margin: 20px;
+    width: 880px;
+    background-color: #ffffff;
+    border: 1px solid rgba(179, 172, 172, 0.336);
+    border-radius: 5px;
+}
+th{
+    background-color: #f9fafb;
+text-align: left;
+padding: 5px;
+font-weight: lighter;
+}
+td.align-right{
+    text-align: right;
+    padding-right: 30px;
+    width: 120px;
+}
+th.align-right{
+    text-align: right;
+    padding-right: 30px;
+    width: 120px;
+}
+td{
+    border-top: 1px solid rgba(199, 196, 196, 0.336);;
+    padding: 5px;
+}
+mark{background:#d1fae5 ;
+    color: #37846d;
+    border-radius: 10px;
+}
+mark1{
+    background: #eedcaf;
+    color: #bb8558;
+    border-radius: 10px;
+}
+mark2{
+    background:#f3f4f6;
+    color: #535a65;
+    border-radius: 10px;
+}
+#money-details{flex: 2;
+
+}
+#photo{
+    margin: 7px;
+}
+#money{
+margin: 7px;
+
+}
+.addmoney{
+    border: 2px solid rgba(151, 146, 146, 0.178);
+}
+.sendmoney{
+border: 2px solid rgba(151, 146, 146, 0.178);
+}
+#pelham{
+display: flex;
+}
+span{
+font-weight: bolder;
+}
+span1{
+    font-weight: bolder;
+    font-size: 18px;
+    }
+#accdetails{
+display: flex;
+padding: 7px;
+}
+#balance{margin-top: 1px;
+    margin-left: 20px;
+}
+#accountimage{
+    margin-top: 7px;
+margin-left: 10px
+}
+    #accountimage1{
+        margin-top: 7px;
+    margin-left: 10px
+    }
+#pendingdetails{
+display: flex;
+padding: 7px;
+
+}   
+#pendingimage{
+    margin-top: 7px;
+margin-left: 10px
+}
+#pendingbal{
+    margin-left: 20px;
+}
+#processeddetails{
+display: flex;
+padding: 7px;
+}
+#processedimage{
+    margin-top: 7px;
+    margin-left: 10px
+}
+#processedbal{
+    margin-left: 20px;
+}
+#textbox{
+padding: 10px;
+}
+#bellicon{
+padding: 10px;
+}
+.row{
+display: flex;
+align-items: center;
+}
+.history2{
+    display: flex;
+    align-items: center;
+
+}
+.balances2{
+    align-items: center;
+    display: flex;
+}
+.cards2{
+    align-items: center;
+    display: flex;
+}
+.recipients2{
+    align-items: center;
+    display: flex;
+}
+.reports2{
+    align-items: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+.settings2{
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    
+}
+.help2{
+    align-items: center;
+    display: flex;
+}
+.privacy2{
+    align-items: center;
+    display: flex;
+}

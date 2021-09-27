@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+        <title>Flex</title>
+    <link rel="stylesheet" href="flex.css">
+    </head>
+    <body>
+        <div id="app">
+            <div id="header"><h3 style="color: white;"><img src="ICONS/easywire.png" width="20px" height="20px">&nbspeasywire</h3>
+                    <div id="active">
+                        
+                        <a href="home">
+                        <div class="row">
+
+                            <div><img src="ICONS/home.png" width="20px" height="20px"></div>
+                            <div style="padding: 5px;">Home</div>
+                        </div>
+                        </a>
+                    </div>
+                    <a href="history">
+                    <div class="history2">
+                       <div><img src="ICONS/history.png" width="20px" height="20px"></div>
+                    
+                       <div style="padding: 5px;">History</div>
+                    </div></a>
+                    
+                        <a href="balances">
+                    <div class="balances2">
+                        <div><img src="ICONS/balances.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Balances</div>
+                    </div>
+                    </a> 
+                    <a href="cards">
+                    <div class="cards2">
+                        <div><img src="ICONS/cards.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Cards</div>
+                    </div>
+                    </a>
+                    <a href="recipients">
+                    <div class="recipients2">
+                        <div><img src="ICONS/recipients.png" width="20px" height="20px"></div>
+                       <div style="padding: 5px;">Recipients</div>
+                    </div>
+                    </a>
+                    <a href="reports">
+                    <div class="reports2">
+                        <div><img src="ICONS/reports.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Reports</div>
+                    </div>
+                    </a>
+                    
+                    <a href="settings">
+                    <div class="settings2">
+                       <div><img src="ICONS/settings.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Settings</div>
+                    </div>
+                    </a>
+                    <a href="help">
+                    <div class="help2">
+                        <div><img src="ICONS/help.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Help</div>
+                    </div>
+                    </a>
+                    <a href="privacy">
+                    <div class="privacy2">
+                        <div><img src="ICONS/privacy.png" width="20px" height="20px"></div>
+                        <div style="padding: 5px;">Privacy</div>
+                    </div>
+                    </a>
+                    
+
+            </div> 
+                <div id="content">
+                    <div id="search">
+                        <div id="searchbox">
+                            <div id="searchicon"><img src="ICONS/search.png" width="25px" height="25px"></div>
+                            <div id="textbox"><input type="text" class="textInput" placeholder="Search transactions"></div>
+                        </div>
+                        
+                        <div id="photobar">
+                                <div id="bellicon"><img src="ICONS/bell.png" height="20px" width="20px"></div>
+                                <div id="personicon"><img src="ICONS/person.jpg"30px" height="30px">&nbsp</div>
+                        </div>
+                        
+                        <div id="pelham">
+                            Pelham mutai
+                        </div>
+                    </div>
+                        <div id="name">
+                            <div id="photo">
+                               <img src="ICONS/person.jpg " width="40px" height="40px">
+                            </div>
+                            <div id="money-details">
+                                 <span>Good morning Pelham mutai</span><br><img src="ICONS/street.png" width="17px" height="10px">&nbsp<span9> Karuna street
+                                 <img src="ICONS/veriviedacc.webp"
+                                 width="12px" height="12px"><span9>verified account</span9>
+                            </div>
+                            <div id="money">
+                                <button style="background: white;" class="addmoney">Add money</button><button style="color:#ffffff; 
+                                background-color:#0891b2;" class="sendmoney">Send money</button>
+                            </div>
+                        </div>
+                 <h5 style="margin-left: 20px;">Overview</h5>                 
+                    <div id="overview">
+                        <div id="account">
+                            <div id=accdetails> 
+
+                                <div id="accountimage">
+                                     <img src="ICONS/accountbal.png" width="17px" height="17px">
+                                </div>
+
+                                <div id="balance">
+                                     Account balance<br><span1>$342,000.56</span1><br>
+                                </div>
+                            </div>
+                                <div class="view-all">View all</div>
+                        </div> 
+
+                        <div id="pending">
+                            <div id="pendingdetails">
+                                <div id="pendingimage">
+                                    <img src="ICONS/pending.png" width="17" height="17px">
+                                </div>
+
+                                <div id="pendingbal">
+                                    Pending<br>
+                                    <span1>-$342,000.56</span1><br>
+                                </div>
+                            </div>
+                            <div class="view-all">View all</div>
+                        </div>
+
+                        <div id="processed">
+                            <div id="processeddetails">
+                                <div id="processedimage">
+                                    <img src="ICONS/history2.png" width="17px"
+                                    height="17px">
+                                </div>
+                                <div id="processedbal">   
+                                    Processed(last 30days)<br><span1>$342,000.56</span1><br>
+                                </div>
+                            </div>
+                                    <div class="view-all">View all</div>
+                        </div>
+                                
+                    </div>
+                    <h4 style="margin-left: 20px;">Recent activity</h4>
+                    <table>
+                        <tr>
+                            <th>TRANSACTION</th>
+                            <th class="align-right">AMOUNT</th>
+                            <th>STATUS</th>
+                            <th class="align-right">DATE</th>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td> <mark>Success</mark></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td><mark1>Processing</mark1></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td><mark>Success</mark></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td><mark>Success</mark></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td><mark2>Failed</mark2></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td><img src="ICONS/payment.jpg" height="20px" width="20px">
+                                Payment to Molly Sanders</td>
+                            <td class="align-right"><span>$20,000</span> USD</td>
+                            <td><mark1>Processing</mark1></td>
+                            <td class="align-right">July 11, 2021</td>
+                        </tr>
+                    </table>  
+                </div>
+        </div>
+    </body>
+</html>
