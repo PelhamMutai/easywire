@@ -133,16 +133,19 @@ td{
 mark{background:#d1fae5 ;
     color: #37846d;
     border-radius: 10px;
+    padding: 5px;
 }
 mark1{
     background: #eedcaf;
     color: #bb8558;
     border-radius: 10px;
+    padding: 5px;
 }
 mark2{
     background:#f3f4f6;
     color: #535a65;
     border-radius: 10px;
+    padding: 5px;
 }
 #money-details{flex: 2;
 
