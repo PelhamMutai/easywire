@@ -19,7 +19,7 @@ body{
     background: #0e7490;
     flex:0 0 150px;
     height: auto; 
-}
+}  
 #header a{text-decoration: none;
     color: white;
     display: block;
